@@ -13,6 +13,7 @@ Each folder inside this repo is a standalone project built to learn, improve, an
 - 🟢 **Node.js** + Express
 - 🍃 **MongoDB**
 - 🎨 **Tailwind CSS**
+- 🎨 **Bootstrap CSS**
 - 🐘 **PHP**
 - 🛢️ **SQL / MySQL**
 - 🔗 REST APIs, Auth, CRUD, Deployment & more
