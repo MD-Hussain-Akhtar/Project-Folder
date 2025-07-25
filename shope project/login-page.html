@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+
+    <div class="login">
+        <input id="Uemail" type="text" placeholder="Email">
+        <input id="Upassword" type="password" placeholder="Password">
+        <button onclick="logging()"><b>Login</b></button>
+    </div>
+
+    <script type="text/javascript">
+        function logging() {
+            var a;
+            var email = document.getElementById("Uemail").value;
+            var password = document.getElementById("Upassword").value;
+            var isValid = valuereturns(email, password);
+            if (isValid) {
+                window.location.href = "shaddam.html"; 
+            } else {
+                document.write("<h1>Useer is Inciracted plz right a user</h1>")
+            }
+        }
+
+        function valuereturns(user, pass) {
+            var c;
+            if (user === "mallick" && pass === "sh") {
+                c = true;
+            } else {
+                c = false;
+            }
+            return c;
+        }
+     </script>
+</body>
+</html>

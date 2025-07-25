@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+.image-logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+
+}
+.flex{
+    display: flex;
+}
+.pd{
+    padding: 10px;
+}
+.box1 {
+    background-image: url("img/Donaction.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* This makes the image cover the entire box */
+    background-position: center; /* Centers the image within the box */
+    width: 100%;
+    height: 700px;
+}
+
+.box2{
+    background-color: white;
+    background-size: cover; /* This makes the image cover the entire box */
+    background-position: center; /* Centers the image within the box */
+    width: 100%;
+    height: 700px;
+}
+.f-tittle{
+        padding-top: 112px;
+        text-align: center;
+        color: white;
+        font-feature-settings: "abvs";
+        font-size: 50px;
+   
+}
+.p-2{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+   
+}
+
+.box2-item-img{
+    height: 100px;
+    padding: 50px;
+}
+
+.text{
+    justify-content: center;
+}
+
+
+/* location Title */
+.locatio-title{
+    text-align: center;
+
+}
+.m-20{
+    margin-top: 20px;
+}
+
+
+/* Whatsapp Group */
+.group-link {
+    display: inline-block;
+    margin: 1em 0;
+    border: none;
+    padding: 0;
+    background: transparent;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #25D366; /* WhatsApp green color */
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button-link:hover {
+    background-color: #1EBE6F; /* Slightly darker green on hover */
+    transform: scale(1.05);
+}
+
+.button-link:active {
+    background-color: #1A9B5A; /* Even darker green on click */
+    transform: scale(0.98);
+}
+
+
+/* Text style */
+
+/* fouter */

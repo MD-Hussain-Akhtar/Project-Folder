@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/png" href="img/ArhaHelpFoundationLogo.png" />
+    <link rel="stylesheet" href="work_box.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <title>Work for Foundation</title>
+
+   <style>
+      .image-logo {
+        width: 40px;
+        height: auto;
+      }
+
+
+/* Custom Styling for the Foundation Page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+}
+
+.navbar {
+    background-color: #007bff;
+    padding: 1rem;
+}
+
+.navbar nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar nav ul li {
+    list-style: none;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.navbar nav ul li:hover {
+    color: #ffc107;
+    transition: color 0.3s ease;
+}
+
+.image-logo {
+    height: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #007bff;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+.box1 img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.box1, .box2 {
+    flex: 1;
+    margin: 10px;
+}
+
+.box2 h2 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.countener {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.countener .box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .countener {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .box2 {
+        padding: 1rem;
+    }
+}
+
+   </style>
+</head>
+
+<body >
+
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <img class="image-logo" src="img/MALIKFOUNDATION.LOGO_-1-removebg-preview.png" alt="Arha Help Foundation Logo" loading="lazy">
+        <a class="navbar-brand" href="#">Arha Help Foundation</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Welcome To Arha Help Foundation</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" href="login.html">Admin Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="whatsapp_contect.html">Join Arha Help Foundation Whatsapp group</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://chat.whatsapp.com/C4un8qWalfd3h8zqZyZCKP">Whatsapp Foundation</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">More</a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="donation.html">Donate</a></li>
+                  <li><a class="dropdown-item" href="work_box.html">Work with Arha Help Foundation</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <button onclick="prompt('Enter new item ')">Add a New Case</button>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+<!-- end navbar  -->
+    <!-- Welcome Section -->
+    
+    <p class="text-center mt-10 text-2xl font-bold">Welcome to Arha Help Foundation</p>
+
+    <!-- Main Content Section -->
+    <div style="background-color: lightgray;" class="container mt-10 ">
+        <h1>Arha Help Foundation: Clean Water for Our Community</h1>
+
+        <div class="countener ">
+            <div class="box1">
+                <img src="img/project1.jpeg" alt="Water Cooler Installation">
+            </div>
+
+            <div class="box2">
+                <h2 class="text-center">Providing Clean Water</h2>
+                <p>
+                    In an effort to provide clean water to our neighborhood, Arha Help Foundation has installed a water
+                    cooler near the middle school. This project ensures that students and community members have access
+                    to safe drinking water throughout the day. We believe that clean water is a basic right, and we are
+                    proud to contribute to the health and well-being of our future generations.
+                </p>
+                <p><strong>Location:</strong> Near [Arha of Middle School]</p>
+                <p><strong>Date of Installation:</strong> [..]</p>d
+                <p><strong>Supported by:</strong> Arha Help Foundation</p>
+                <p><em>Stay hydrated, stay healthy!</em></p>
+            </div>
+        </div>
+    </div>
+    <!-- Donate Section -->
+    <div class="donate-section text-center py-8 bg-gray-100">
+      <h2 class="text-3xl font-bold mb-4">Donate to Arha Helps Foundation via PhonePe or Bank Transfer</h2>
+      <p class="mb-6">You can contribute using PhonePe by sending your donation to our UPI ID or via a bank transfer using the details below.</p>
+  
+      <div class="upi-details mb-6">
+          <p><strong>PhonePe UPI ID:</strong> 7654414032</p>
+          <p><em>(Copy this UPI ID and send your donation via the PhonePe app)</em></p>
+      </div>
+  
+      <!-- Add the QR code image here -->
+      <div class="qr-code">
+          <img src="img/Scanner.jpg" alt="PhonePe QR Code" class="mx-auto">
+      </div>
+  
+      <!-- Add bank transfer details here -->
+      <div class="bank-details mt-6">
+          <h3 class="text-xl font-semibold mb-2">Donate via Bank Transfer</h3>
+          <p><strong>Bank:</strong> India Post Payments Bank</p>
+          <p><strong>Account Holder Name:</strong> Md Aamir</p>
+          <p><strong>Account Number:</strong> 009110136520</p>
+          <p><strong>IFSC Code:</strong> IPOS0000001</p>
+      </div>
+  
+      <p class="mb-6">After making your donation, please <strong>take a screenshot of the payment confirmation</strong> and <strong>send it to our WhatsApp group</strong> or <strong>message us with your donation details</strong> for verification.</p>
+      <p>Join our WhatsApp group here:  
+          <a href="https://chat.whatsapp.com/C4un8qWalfd3h8zqZyZCKP" target="_blank" class="inline-block px-6 py-3 text-white bg-green-500 rounded-lg font-semibold text-lg transition-transform duration-300 transform hover:bg-green-600 hover:scale-105 active:bg-green-700 active:scale-95">
+              Join Our WhatsApp Group
+          </a>
+      </p>
+  </div>
+  
+  
+  
+  <!-- About Us Section -->
+  <main class="py-8">
+      <div class="container mx-auto px-4">
+          <section class="text-center mb-12">
+              
+              <h2 class="text-3xl font-semibold mb-4">About Us</h2>
+              <p class="text-lg leading-relaxed mb-6">
+                  Welcome to the Arha Help Foundation, a non-profit organization dedicated to making a difference in our community. Our mission is to provide essential support and resources to those in need, ensuring that everyone has the opportunity to thrive. Founded by Hussain Akhter, our foundation is committed to fostering positive change and creating a more equitable society. Join us in our journey to bring hope and help to those who need it most.
+              </p>
+              <a href="#" class="inline-block px-6 py-3 text-white bg-blue-600 rounded-lg font-semibold text-lg transition-transform duration-300 transform hover:bg-blue-700 hover:scale-105 active:bg-blue-800 active:scale-95">
+                  Learn More
+              </a>
+          </section>
+      </div>
+  </main>
+  
+<!-- Fouter Start -->
+<footer
+class="bg-zinc-50 text-center text-surface/75 dark:bg-neutral-700 dark:text-white/75 lg:text-left">
+<div
+  class="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-white/10 lg:justify-between">
+  <div class="me-12 hidden lg:block">
+    <span>Get connected with us on social networks:</span>
+  </div>
+  <!-- Social network icons container -->
+  <div class="flex justify-center">
+    <!-- Existing social icons here -->
+    <a href="#!" class="me-6 [&>svg]:h-4 [&>svg]:w-4">
+      <!-- SVG icon code -->
+    </a>
+    <!-- Add other social icons similarly -->
+  </div>
+</div>
+
+<!-- Main container div: holds the entire content of the footer, including Arha Help Foundation section, Contact, and others -->
+<div class="mx-6 py-10 text-center md:text-left">
+  <div class="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+    <!-- Arha Help Foundation section -->
+    <div class="">
+      <h6
+        class="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
+        <span class="me-3 [&>svg]:h-4 [&>svg]:w-4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor">
+            <path
+              d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
+          </svg>
+        </span>
+        Arha Help Foundation
+      </h6>
+      <p>
+        The Arha Help Foundation aims to improve life in villages by addressing common issues like water supply and maintaining the village mosque. The foundation provides water coolers, assists with repairs and equipment for the mosque, and helps anyone in need within the community.
+      </p>
+      <p>
+        By bringing the village together, the foundation ensures support in emergencies or when someone requires financial or material aid, making the village a better place for all.
+      </p>
+    </div>
+
+    <!-- Other sections like Contact or Products as per your previous footer structure -->
+    <div>
+      <h6
+        class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+        Contact
+      </h6>
+      <p class="mb-4 flex items-center justify-center md:justify-start">
+        <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor">
+            <path
+              d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+            <path
+              d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+          </svg>
+        </span>
+        Arha Jamui Bihar 811301
+      </p>
+      <!-- More contact info here -->
+      <p class="text-gray-700 mb-2">
+        © 2024 Website created by Hussain Akhter
+        <img src="img/hussain.png" alt="Hussain Akhter" class="inline-block ml-2 w-10 h-10 rounded-full">
+    </p>
+      <p class="text-gray-500 text-sm flex gap-4 justify-center">
+        <a href="https://www.facebook.com/profile.php?id=100021838397807"><img src="img/facebook.png" alt="" width="40" height="40"></a>
+        <a href="https://wa.me/918226939049"><img src="img/social (1).png" alt="" width="40" height="40"></a>
+        <a href="https://www.instagram.com/mallick__shaddam/"><img src="img/social.png" alt="" width="40" height="40"></a>
+        <a href="tel:8226939049"><img src="img/contact-mail.png" alt="Phone Icon" width="40" height="40"></a>
+
+    </p>
+    </div>
+  </div>
+</div>
+
+<!--Copyright section-->
+<div class="bg-gray-100 p-6 text-center">
+  
+
+
+
+
+
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
